@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+class siswa;
 class orang 
 {
 private:
@@ -9,5 +10,11 @@ private:
 
 public:
     void setNama(string pNama);
+    friend class siswa;
+};
+
+class siswa
+{
 
 };
+
