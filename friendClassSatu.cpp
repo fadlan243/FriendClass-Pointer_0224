@@ -18,5 +18,7 @@ class siswa
 private:
     int id;
 
+public:
+
 };
 
