@@ -16,6 +16,7 @@ public:
 class siswa
 {
 private:
+    int id;
 
 };
 
